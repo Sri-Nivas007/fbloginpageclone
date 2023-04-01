@@ -1,0 +1,124 @@
+body {
+  font-size: 1.6 rem;
+  font: sand serif;
+  box-sizing: border-box;
+  background: #f0f2f5;
+}
+
+.Login {
+  width: 90%;
+  height: 25rem;
+  display: flex;
+  border-radius: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 1px;
+  padding-left: 5px;
+}
+
+.facebooktext {
+  font-size: 2.5rem;
+  font-weight: 730;
+  color: blue;
+}
+
+.title {
+  font-size: 1rem;
+  color: black;
+  font-weight: 450;
+  margin-top: 1rem;
+}
+.Logincontainer {
+  border: white 5px solid;
+  background: white;
+  height: 17rem;
+  width: 17rem;
+  border-radius: 0.5rem;
+}
+
+input[type="email"] {
+  width: 95%;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-color: rgb(128, 128, 128, 0.3);
+  text-indent: 10px;
+}
+input[type="password"] {
+  width: 95%;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-color: rgb(128, 128, 128, 0.3);
+  text-indent: 10px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 2.3rem;
+  border-radius: 0.3rem;
+  margin: 8px 8px;
+  padding: 9px 9px 9px 9px;
+  justify-content: center;
+  background: blue;
+  color: white;
+  border-width: 1px;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  font-size: 0.7rem;
+  justify-content: space-evenly;
+  
+}
+.forgot {
+  font-size: 0.7rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding-right: 0px;
+  color: blue;
+  border: 1px;
+}
+.btns {
+  display: flex;
+  width: 50%;
+  height: 2rem;
+  background: rgb(24, 181, 24);
+  color: white;
+  border-width: 1px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 60px;
+  padding-top: 8.5px;
+  font-size: 12px;
+}
+.line {
+  width: 80%;
+  border-bottom: 0.2px rgb(128, 128, 128, 0.3) solid;
+  margin-left: 30px;
+}
+.page {
+  font-size: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+a{
+    text-decoration: none;
+}
+input:focus{
+    border: 1px blue solid ;
+    outline: none;
+}
+.clr{
+  color: white;
+}
